@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-n "C:\Work\NUnit3 Console\nunit3-console.exe" -d "C:\Work\REPOs\desktop-jasmin-test\L-Jsm-Member\bin\Debug\L_Jsm_Member.dll" -b "firefox" -w 4</StartArguments>
+  </PropertyGroup>
+</Project>
