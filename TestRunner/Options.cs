@@ -36,7 +36,7 @@ namespace TestRunner
 
             lHelp.Heading = new HeadingInfo( "TestRunner", "v1.0" );
 
-            lHelp.Copyright = new CopyrightInfo( "TestSquad", 2017 );
+            lHelp.Copyright = new CopyrightInfo( "Daniel Erdos - T#", 2017 );
 
             lHelp.AddPreOptionsLine( "This command line application is for help you running your NUnit based C# automation tests with custom parameters." );
 
