@@ -36,11 +36,11 @@ namespace TestRunner
 
             lHelp.Heading = new HeadingInfo( "TestRunner", "v1.0" );
 
-            lHelp.Copyright = new CopyrightInfo( "Daniel Erdos - T#", 2017 );
-
             lHelp.AddPreOptionsLine( "This command line application is for help you running your NUnit based C# automation tests with custom parameters." );
 
             lHelp.AddPreOptionsLine( Environment.NewLine );
+
+            lHelp.AddPreOptionsLine( "Created by Daniel Erdos, Test# - 2017" );
 
             lHelp.AddPreOptionsLine( "The application adds the option to set browser type based on command line argument, and writes out to a file, which can later read by your test setup." );
 
